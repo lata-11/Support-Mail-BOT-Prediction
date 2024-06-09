@@ -42,23 +42,20 @@ I have categorized the emails into following categories:
 - **Web Integration**: Utilizing Streamlit, the model is integrated into a web application, allowing users to interactively classify emails using a user-friendly interface. The web application provides an intuitive way to input email text and receive real-time predictions on the email category.
   
 ## Testing
--**Clone the Repository:**
-   ```bash
-   git clone https://github.com/lata-11/Support-Mail-BOT-Prediction.git
-   ```
--**Navigate to the Project Directory:**
-    ```bash
-    cd Support-Mail-BOT-Prediction
-    ```
--**Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
--**Run the Streamlit Application:**
-   ```bash
-   streamlit run app.py
-   ```
 
+```bash
+# Clone the Repository:
+git clone https://github.com/lata-11/Support-Mail-BOT-Prediction.git
+
+# Navigate to the Project Directory:
+cd Support-Mail-BOT-Prediction
+
+# Install Dependencies:
+pip install -r requirements.txt
+
+# Run the Streamlit Application:
+streamlit run app.py
+```
 
 ## Final Results
 
