@@ -1,5 +1,9 @@
 # Support-Mail-BOT-Prediction
-## Problem Statement:
+## Introduction
+
+This project was developed as a submission for the Code Without Barriers Hackathon, powered by Microsoft and AngleHack. The aim of the hackathon was to promote inclusive and accessible technology solutions that empower individuals with disabilities.
+
+## Barclays: Problem Statement - Support Mail/BOT Prediction
 Design an Algorithm that will perform data analytics on a given email data and categorize email data belonging to specific category and predict the relevance. The algorithm should also filter out the spams in addition to the category that has been filtered out earlier. Some of the Categorization can be Resumes, Application, Meetings, HR, Spam, etc.
 
 ## Solution Overview
@@ -9,15 +13,14 @@ The email classification model in this repository leverages natural language pro
 
 Dataset: https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
 
+I have categorized the emails into following categories:
 
-## Introduction
-
-This repository contains a machine learning model for classifying emails into predefined categories such as Resumes, Applications, Meetings, HR, and Spam. The model uses text preprocessing techniques and TF-IDF for feature extraction, followed by a Logistic Regression classifier to perform the classification.
 - Resumes
 - Applications
 - Meetings
 - HR
 - Spam
+- Uncategorized
 
 ## Tech Stack Used
 
@@ -26,6 +29,7 @@ This repository contains a machine learning model for classifying emails into pr
 - **scikit-learn**: Python library for machine learning tasks such as model training, evaluation, and feature extraction.
 - **matplotlib** and **seaborn**: Python libraries for data visualization, used to visualize the model's performance metrics and data distribution.
 - **Jupyter Notebook**: Interactive computing environment used for data exploration, experimentation, and development of the email classification model.
+- **Streamlit**: Python library for building interactive web applications. Used for creating a user-friendly web interface for the email classification model.
 
 ## Key Features
 
@@ -34,8 +38,8 @@ This repository contains a machine learning model for classifying emails into pr
 - **Logistic Regression Classifier**: A Logistic Regression model is trained on the vectorized features to classify emails into predefined categories.
 - **Evaluation Metrics**: The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score to assess its effectiveness in email classification.
 - **Visualization**: The repository includes visualizations of class distribution, top TF-IDF features for each category, confusion matrix, and model accuracy to provide insights into the model's performance and decision-making process.
-
-
+- **Web Integration**: Utilizing Streamlit, the model is integrated into a web application, allowing users to interactively classify emails using a user-friendly interface. The web application provides an intuitive way to input email text and receive real-time predictions on the email category.
+  
 ## Data Preprocessing
 
 The text data is preprocessed using the following steps:
@@ -50,3 +54,9 @@ After training and evaluating the Logistic Regression model on the email classif
 
 ## Accuracy
 Testing Accuracy: 0.9003
+
+## UI
+![image](https://github.com/lata-11/Support-Mail-BOT-Prediction/assets/103296906/ba5fa963-d6a9-41be-a659-25a10cca8289)
+![image](https://github.com/lata-11/Support-Mail-BOT-Prediction/assets/103296906/14a1c6bf-6ddf-49a0-bdcd-12b8e66a6a05)
+
+
