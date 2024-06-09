@@ -30,6 +30,7 @@ I have categorized the emails into following categories:
 - **matplotlib** and **seaborn**: Python libraries for data visualization, used to visualize the model's performance metrics and data distribution.
 - **Jupyter Notebook**: Interactive computing environment used for data exploration, experimentation, and development of the email classification model.
 - **Streamlit**: Python library for building interactive web applications. Used for creating a user-friendly web interface for the email classification model.
+- **Azure ML**: Azure Machine Learning service used for deploying the model as a web service.
 
 ## Key Features
 
@@ -40,13 +41,21 @@ I have categorized the emails into following categories:
 - **Visualization**: The repository includes visualizations of class distribution, top TF-IDF features for each category, confusion matrix, and model accuracy to provide insights into the model's performance and decision-making process.
 - **Web Integration**: Utilizing Streamlit, the model is integrated into a web application, allowing users to interactively classify emails using a user-friendly interface. The web application provides an intuitive way to input email text and receive real-time predictions on the email category.
   
-## Data Preprocessing
+## Testing
 
-The text data is preprocessed using the following steps:
-- Remove punctuation and convert text to lowercase.
-- Tokenize the text.
-- Remove stopwords.
-- Lemmatize the words.
+```bash
+# Clone the Repository:
+git clone https://github.com/lata-11/Support-Mail-BOT-Prediction.git
+
+# Navigate to the Project Directory:
+cd Support-Mail-BOT-Prediction
+
+# Install Dependencies:
+pip install -r requirements.txt
+
+# Run the Streamlit Application:
+streamlit run app.py
+```
 
 ## Final Results
 
