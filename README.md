@@ -45,15 +45,19 @@ I have categorized the emails into following categories:
 -**Clone the Repository:**
    ```bash
    git clone https://github.com/lata-11/Support-Mail-BOT-Prediction.git
+   ```
 - **Navigate to the Project Directory:**
     ```bash
     cd Support-Mail-BOT-Prediction
+    ```
 -**Install Dependencies:**
     ```bash
     pip install -r requirements.txt
+    ```
 -**Run the Streamlit Application:**
    ```bash
    streamlit run app.py
+   ```
 
 
 ## Final Results
