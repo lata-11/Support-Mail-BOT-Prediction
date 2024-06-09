@@ -41,13 +41,20 @@ I have categorized the emails into following categories:
 - **Visualization**: The repository includes visualizations of class distribution, top TF-IDF features for each category, confusion matrix, and model accuracy to provide insights into the model's performance and decision-making process.
 - **Web Integration**: Utilizing Streamlit, the model is integrated into a web application, allowing users to interactively classify emails using a user-friendly interface. The web application provides an intuitive way to input email text and receive real-time predictions on the email category.
   
-## Data Preprocessing
+## Testing
+-**Clone the Repository:**
+   ```bash
+   git clone https://github.com/lata-11/Support-Mail-BOT-Prediction.git
+- **Navigate to the Project Directory:**
+    ```bash
+    cd Support-Mail-BOT-Prediction
+-**Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+-**Run the Streamlit Application:**
+   ```bash
+   streamlit run app.py
 
-The text data is preprocessed using the following steps:
-- Remove punctuation and convert text to lowercase.
-- Tokenize the text.
-- Remove stopwords.
-- Lemmatize the words.
 
 ## Final Results
 
