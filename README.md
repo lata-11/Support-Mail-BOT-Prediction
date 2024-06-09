@@ -30,6 +30,7 @@ I have categorized the emails into following categories:
 - **matplotlib** and **seaborn**: Python libraries for data visualization, used to visualize the model's performance metrics and data distribution.
 - **Jupyter Notebook**: Interactive computing environment used for data exploration, experimentation, and development of the email classification model.
 - **Streamlit**: Python library for building interactive web applications. Used for creating a user-friendly web interface for the email classification model.
+- **Azure ML**: Azure Machine Learning service used for deploying the model as a web service.
 
 ## Key Features
 
