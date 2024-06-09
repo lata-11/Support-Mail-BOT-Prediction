@@ -57,6 +57,7 @@ Testing Accuracy: 0.9003
 
 ## UI
 ![image](https://github.com/lata-11/Support-Mail-BOT-Prediction/assets/103296906/ba5fa963-d6a9-41be-a659-25a10cca8289)
-![image](https://github.com/lata-11/Support-Mail-BOT-Prediction/assets/103296906/14a1c6bf-6ddf-49a0-bdcd-12b8e66a6a05)
+
+![image](https://github.com/lata-11/Support-Mail-BOT-Prediction/assets/103296906/1f1413d8-04d0-40e7-812d-c2fde459f415)
 
 
