@@ -1,7 +1,7 @@
 # Support-Mail-BOT-Prediction
 ## Introduction
 
-This project was developed as a submission for the Code Without Barriers Hackathon, powered by Microsoft and AngleHack. The aim of the hackathon was to promote inclusive and accessible technology solutions that empower individuals with disabilities.
+This project was developed as a submission for the Code Without Barriers Hackathon, powered by Microsoft and AngleHack. 
 
 ## Barclays: Problem Statement - Support Mail/BOT Prediction
 Design an Algorithm that will perform data analytics on a given email data and categorize email data belonging to specific category and predict the relevance. The algorithm should also filter out the spams in addition to the category that has been filtered out earlier. Some of the Categorization can be Resumes, Application, Meetings, HR, Spam, etc.
