@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import joblib
 
@@ -68,5 +69,5 @@ def main():
             st.markdown(f"<p class='result'>Predicted class: <span style='color: #4CAF50;'>{prediction[0]}</span></p>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 8501))
     main()
-
