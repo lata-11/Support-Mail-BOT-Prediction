@@ -61,7 +61,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Stop Azure Web App
-        run: az webapp stop --name inboxIQapp --resource-group <your-resource-group-name>
+        run: az webapp stop --name inboxIQapp --resource-group inboxIQapp
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
@@ -72,9 +72,9 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE4E7A50BA474CAABFBE1A1D5FEF31B7 }}
 
       - name: Start Azure Web App
-        run: az webapp start --name inboxIQapp --resource-group <your-resource-group-name>
+        run: az webapp start --name inboxIQapp --resource-group inboxIQapp
 
       - name: Start Streamlit app
         run: |
           source venv/bin/activate
-          streamlit run your_script.py --server.port=8501
+          streamlit run app.py --server.port=8501
