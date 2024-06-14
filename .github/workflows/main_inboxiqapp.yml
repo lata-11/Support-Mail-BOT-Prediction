@@ -60,6 +60,9 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+      - name: Stop Azure Web App
+        run: az webapp stop --name inboxIQapp --resource-group <your-resource-group-name>
+
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
@@ -67,6 +70,9 @@ jobs:
           app-name: 'inboxIQapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE4E7A50BA474CAABFBE1A1D5FEF31B7 }}
+
+      - name: Start Azure Web App
+        run: az webapp start --name inboxIQapp --resource-group <your-resource-group-name>
 
       - name: Start Streamlit app
         run: |
